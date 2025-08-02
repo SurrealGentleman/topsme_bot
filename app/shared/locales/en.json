@@ -1,0 +1,88 @@
+{
+  "success_lang_select": "Language selected: Russian.",
+  "enter_email": "Enter your email.",
+  "registration_completed": "Registration completed successfully. Await new leads!",
+  "email_not_found": "\uD83D\uDEAB The entered email was not found in the system. Check your email or contact the manager.",
+
+  "new_lead": "💼 New lead: {title}\nBudget: {budget}{currency}\nDeal type: {type}",
+  "take_button": "Take",
+  "lead_detail": "Deal: {title}\nBudget: {budget} {currency}\nDeal type: {type}\n{contact}\n✅ You are responsible for this deal.",
+  "lead_taken_fail": "❌ The deal has already been taken by another agent.",
+  "agent_taken_fail": "{original_text_message}\n❌ You have unprocessed leads. Finish them first before taking new ones.",
+  "leave_comment_button": "Leave a comment on the lead",
+  "wait_comment": "✍\uFE0F Waiting for your comment…",
+  "plus_comment": "{original_lead_text}\n\n\uD83D\uDCAC Comment:\n{comment_text}\n\nYou can now manage the stages of this deal.",
+
+  "notification_of_comment": "Please leave a comment on the deal. Without a comment, you cannot take a new lead.",
+
+  "bitrix_error": "Bitrix is not responding. Please try again later.",
+
+  "registration_already": "You are already registered.",
+
+  "choice_funnel": "{original_lead_text}\n\nSelect a funnel for conversion:",
+  "lose_stage": "{original_lead_text}\n\nDeal moved to status: ❌ {stage_name}",
+
+  "new_lead_new_funnel": "🗂 Funnel: {funnel_name}\n{text_lead_message}\nSelect the deal stage:",
+
+  "none_free_leads": "✅ There are no available applications right now.",
+
+  "funnel_new_building": "New Construction Sales Funnel",
+  "funnel_villa": "Villa Sales Funnel",
+  "funnel_both": "Add to both funnels",
+
+  "convert_lead_info_funnel_new_building": "✅ Deal successfully converted to the New Construction Sales Funnel",
+  "convert_lead_info_funnel_villa": "✅ Deal successfully converted to the Villa Sales Funnel",
+  "convert_lead_info_funnel_both": "✅ Deal successfully added to both funnels",
+
+  "stage_update": "Stage updated",
+  "final_stage": "Congratulations! You have successfully closed the deal!",
+
+  "contact_info": "Contact information:\n{contact_name} {contact_last_name} {contact_second_name}\n{contact_phone}\n{contact_email}",
+  "value_type_labels": {
+    "WORK": "Work",
+    "HOME": "Home",
+    "MOBILE": "Mobile",
+    "OTHER": "Other",
+    "EMAIL": "Email",
+    "FACEBOOK": "Facebook",
+    "TELEGRAM": "Telegram",
+    "VIBER": "Viber",
+    "INSTAGRAM": "Instagram",
+    "SKYPE": "Skype"
+  },
+  "value_type_labels_stages": {
+    "NEW": "Not processed",
+    "PREPARATION": "In progress",
+    "UC_CIYR3S": "Responded",
+    "UC_9J2Q3N": "Negotiations",
+    "WON": "Negotiations completed",
+    "LOSE": "Spam / Advertising",
+    "UC_UL8WTL": "Not relevant",
+    "APOLOGY": "Too expensive",
+    "UC_3HB63Q": "No answer",
+    "UC_PZRTBR": "Other reason",
+
+    "C1:NEW": "Closing for a viewing",
+    "C1:PREPARATION": "Viewing scheduled",
+    "C1:PREPAYMENT_INVOICE": "Viewing conducted",
+    "C1:EXECUTING": "Preparing documents for deposit",
+    "C1:UC_QF6M9J": "Signed deposit contract",
+    "C1:FINAL_INVOICE": "Deposit paid",
+    "C1:WON": "First contract payment",
+    "C1:LOSE": "Deal lost",
+    "C1:UC_GXE9DA": "Analyze failure",
+
+    "DT31_3:N": "New",
+    "C3:NEW": "Arrange a viewing",
+    "DT31_3:S": "Sent to client",
+    "C3:PREPARATION": "Viewing scheduled",
+    "DT31_3:P": "Paid",
+    "C3:PREPAYMENT_INVOICE": "Viewing conducted",
+    "DT31_3:D": "Not paid",
+    "C3:EXECUTING": "Preparing the contract",
+    "C3:FINAL_INVOICE": "Contract signed",
+    "C3:UC_MY6M1K": "Deposit paid",
+    "C3:WON": "First contract payment",
+    "C3:LOSE": "Rejection"
+  }
+}

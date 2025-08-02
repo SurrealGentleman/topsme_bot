@@ -1,0 +1,7 @@
+{
+  "LANGUAGES" : {
+    "lang_ru": "Русский RU",
+    "lang_en": "English EN"
+  },
+  "SELECT_LANGUAGE": "Выберите язык / Select your language:"
+}
