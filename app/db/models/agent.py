@@ -7,8 +7,8 @@ class Agent(Base):
     __tablename__ = 'agents'
 
     id = Column(Integer, primary_key=True, index=True)
-    telegram_id = Column(String, unique=True, index=True)
-    bitrix_user_id = Column(String, unique=True, index=True)
+    telegram_id = Column(Integer, unique=True, index=True)
+    bitrix_user_id = Column(Integer, unique=True, index=True)
     email = Column(String, unique=True, index=True)
     name = Column(String)
     is_active = Column(Boolean, default=True)

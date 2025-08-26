@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Boolean, DateTime, ForeignKey
+from sqlalchemy import Column, Integer, String, Boolean, DateTime, ForeignKey, Numeric
 from sqlalchemy.orm import relationship
 from datetime import datetime
 from app.db.database import Base
@@ -7,9 +7,9 @@ class Lead(Base):
     __tablename__ = 'leads'
 
     id = Column(Integer, primary_key=True, index=True)
-    bitrix_id = Column(String, unique=True, index=True)
+    bitrix_id = Column(Integer, unique=True, index=True)
     title = Column(String)
-    budget = Column(String, nullable=True)
+    budget = Column(Numeric(scale=2), nullable=True)
     currency = Column(String, nullable=True)
     lead_type = Column(String, nullable=True)
     assigned_id = Column(Integer, ForeignKey("agents.id"), nullable=True)

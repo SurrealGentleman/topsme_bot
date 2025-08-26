@@ -15,10 +15,12 @@ class Settings(BaseSettings):
     BITRIX_WEBHOOK: str
     BITRIX_GROUP_ID: int
     BITRIX_BOT_BUFFER_ID: int
-    BITRIX_FUNNEL_CATEGORY_ID_LEAD: str
-    BITRIX_FUNNEL_NEW_BUILDING_ID: str
-    BITRIX_FUNNEL_VILLA_ID: str
+    BITRIX_FUNNEL_CATEGORY_ID_LEAD: int
+    BITRIX_FUNNEL_NEW_BUILDING_ID: int
+    BITRIX_FUNNEL_VILLA_ID: int
     BOT_TOKEN: str
+
+    SQL_ECHO: bool
 
 
     @property
